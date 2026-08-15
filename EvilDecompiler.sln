@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDecompiler", "EvilDecompiler\EvilDecompiler.csproj", "{5A88DDB3-E5E9-46BA-B160-CEB73FFC06A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F} = {A44DDB59-31B2-4F89-8E28-09F76E86429F}
+		{C0BC1571-79D7-49D8-AC8C-300FA6281A01} = {C0BC1571-79D7-49D8-AC8C-300FA6281A01}
+		{EA44D897-19BB-467D-962A-44DDF9D121B6} = {EA44D897-19BB-467D-962A-44DDF9D121B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDecompiler.ByteCode", "EvilDecompiler.ByteCode\EvilDecompiler.ByteCode.csproj", "{EA44D897-19BB-467D-962A-44DDF9D121B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F} = {A44DDB59-31B2-4F89-8E28-09F76E86429F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDecompiler.JsObject", "EvilDecompiler.JsObject\EvilDecompiler.JsObject.csproj", "{A44DDB59-31B2-4F89-8E28-09F76E86429F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDecompiler.GUI", "EvilDecompiler.GUI\EvilDecompiler.GUI.csproj", "{93F1AE82-0C39-4880-B7E2-E447A0E27BEE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F} = {A44DDB59-31B2-4F89-8E28-09F76E86429F}
+		{EA44D897-19BB-467D-962A-44DDF9D121B6} = {EA44D897-19BB-467D-962A-44DDF9D121B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDecompiler.Decompiler", "EvilDecompiler.Decompiler\EvilDecompiler.Decompiler.csproj", "{C0BC1571-79D7-49D8-AC8C-300FA6281A01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F} = {A44DDB59-31B2-4F89-8E28-09F76E86429F}
+		{EA44D897-19BB-467D-962A-44DDF9D121B6} = {EA44D897-19BB-467D-962A-44DDF9D121B6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A88DDB3-E5E9-46BA-B160-CEB73FFC06A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A88DDB3-E5E9-46BA-B160-CEB73FFC06A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A88DDB3-E5E9-46BA-B160-CEB73FFC06A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A88DDB3-E5E9-46BA-B160-CEB73FFC06A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA44D897-19BB-467D-962A-44DDF9D121B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA44D897-19BB-467D-962A-44DDF9D121B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA44D897-19BB-467D-962A-44DDF9D121B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA44D897-19BB-467D-962A-44DDF9D121B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44DDB59-31B2-4F89-8E28-09F76E86429F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F1AE82-0C39-4880-B7E2-E447A0E27BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F1AE82-0C39-4880-B7E2-E447A0E27BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F1AE82-0C39-4880-B7E2-E447A0E27BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F1AE82-0C39-4880-B7E2-E447A0E27BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BC1571-79D7-49D8-AC8C-300FA6281A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BC1571-79D7-49D8-AC8C-300FA6281A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BC1571-79D7-49D8-AC8C-300FA6281A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BC1571-79D7-49D8-AC8C-300FA6281A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
