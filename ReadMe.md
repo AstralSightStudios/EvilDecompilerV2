@@ -2,6 +2,8 @@
 
 高保真quickjs反编译器，通过SSA IR 与 AST，将字节码转化为JavaScript代码。
 
+v1: https://github.com/66hh/EvilDecompiler
+
 #### 示例
 
 ```
